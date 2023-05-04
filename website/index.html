@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,22 @@
     <title>David Garcia</title>
 </head>
 <body class="d-flex h-100 text-center text-bg-light">
-<div class="container" style="opacity: 1; transform: translateY(1px) translateZ(0px);">
+<style>
+    body{
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes fadeInAnimation {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+</style>
+<div class="container">
     <div class="text-dark">
         <p class="display-1" id="title">
             Olá, meu nome é David!
@@ -20,23 +35,26 @@
         <h6 class="display-6">
             - Atualmente, sou estagiário Dev Trainee na <a class="link-dark" href="https://smartness.com.br/" target="_blank">Smartness</a>
         </h6>
-        <div class="row mt-5">
-            <div class="col-md-6">
+        <div class="row mt-5" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+            <div class="col-md-4">
                 <a href="https://github.com/david-garcia1402" target="_blank"><img class="rounded-circle" width="140" height="140" src="img/giticon.svg" alt="svg"></a>
                 <p>
                     Clique na imagem para acessar meu GitHub, você terá acesso ao meus repositórios e consequentemente alguns projetos completos e/ou em desenvolvimento.
                 </p>
             </div>
-            <div class="col-md-6">
-                <a href="aboutMe.html"><img class="rounded-circle" width="140" height="140" src="img/perfil.png" alt="svg" focusable="false"></a>
-                <p>
+            <div class="col-md-4">
+                <img src="img/Nerd-amico.svg" alt="Coder">
+            </div>
+            <div class="col-md-4">
+                <a href="aboutMe.html" target="_blank"><img class="rounded-circle" width="140" height="140" src="img/perfil.png" alt="svg" focusable="false"></a>
+                <p style="margin-bottom: 30px;">
                     Clique na imagem para saber mais sobre mim.
                 </p>
             </div>
         </div>
     </div>
 </div>
-<footer class="fixed-bottom text-bg-dark mb-2">
+<footer class="fixed-bottom text-bg-dark">
     <div class="row">
             <div class="col-4">
                 <a class="link-light" href="https://www.linkedin.com/in/david-garcia-a839b4243/" target="_blank">Linkedin</a>
