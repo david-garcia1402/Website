@@ -1,5 +1,5 @@
 <?php 
 include("config.php");
-$sql = "UPDATE likes SET count = count + 1 WHERE id = 1";
+$sql = "UPDATE NewTable SET likecount = likecount + 1 WHERE id_like = 1";
 $res = $conn->query($sql);
 ?>
