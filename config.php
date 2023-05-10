@@ -1,8 +1,8 @@
 <?php
 //conexão com o banco de dados
 define('HOST', 'aws.connect.psdb.cloud');
-define('USER', 'ykxedhp82upe4hvej0u9');
-define('PASS', 'pscale_pw_aFxSjW6qW4fAEj2nEPP2LFWiTEXHvZSpZY8eXHufFaT');
+define('USER', 'di6pu0nlwekir01d6hvh');
+define('PASS', 'pscale_pw_RWSGsATXZECFtLH4xSiDiagPHvUApXKVrzAQZBO6Rl2');
 define('BASE', 'planetscale');
 
 $conn = new MySQLi(HOST, USER, PASS, BASE);
