@@ -9,10 +9,11 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/icons8-desenvolvedor-50.png">
     <title>Sobre mim</title>
 </head>
-<body class="d-flex h-100 text-center text-bg-light">
+<body class="d-flex h-100 text-center text-bg-light disableCaret">
 <style>
     *{
         margin: 0;
@@ -31,6 +32,11 @@
             opacity: 1;
         }
     }
+
+    .disableCaret{
+        -webkit-user-select: none;
+        user-select: none;  
+    }
 </style>
 <div class="container">
     <form action="index.html" style="margin-bottom: 55px;">
@@ -41,8 +47,8 @@
         </div>
     </form>
     <div class="text-dark my-3">
-        <div class="row">
-            <div class="col-md-6" id="aboutContent"style="font-size: 20px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+        <div class="row ">
+            <div class="col-sm-6 texts" id="aboutContent"style="font-size: 20px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                 <p> Olá, meu nome é David e atualmente estou treinando para ser um desenvolvedor full-stack. Minha jornada na programação começou no início de 2021, quando comecei a estudar lógica de programação e a desenvolver projetos em Python.</p>
                 <p> Desde então, tenho estudado muito sobre a área para ser um renomado e bem-sucedido programador. Meu primeiro emprego na área de programação foi em março de 2023, na <a class="link-dark" href="https://smartness.com.br/" target="_blank">Smartness</a>, uma empresa renomada na área de tecnologia.</p>
                 <p> Hoje em dia, sou estagiário trainee e trabalho com várias tecnologias, incluindo PHP, JS, DOM, Docker, SQL, Bootstrap, AJAX e JSON, além de outras ferramentas importantes de gerenciamento/desenvolvimento da área de tecnologia. Hoje em dia, minha meta é me tornar um desenvolvedor full-stack bem-sucedido trabalhando para o exterior.</p> 
@@ -50,25 +56,27 @@
                     Minha especialidade atual é o desenvolvimento de back-end, mas quero me aprimorar também no 
                     desenvolvimento de front-end e no gerenciamento de projetos, para me tornar um programador ainda mais completo e versátil.</p>   
             </div>
-            <div class="col-md-6">
-                <img class="img-bro" id="img-bro" width="320" height="400" src="img/bro.svg" alt="svg" style="margin: 0px; padding: 0px;">
-                <div class="row">
-                    <div class="col-md-4">    
-                        <span>
-                            <a href="https://github.com/david-garcia1402" target="_blank"><img src="img/giticon.svg" alt="Git Icon"></a>
-                        </span>
-                    </div>                
-                    <div class="col-md-4">    
-                        <span>
-                            <a href="https://www.instagram.com/_davidgaarcia/" target="_blank"><img src="img/instagram.png" width="24" height="24" alt="Git Icon"></a>
-                        </span>
-                    </div>                    
-                    <div class="col-md-4">    
-                        <span>
-                            <a href="https://www.linkedin.com/in/david-garcia-a839b4243/" target="_blank"><img src="img/linkedinicon.png" width="34" height="34" alt="Git Icon"></a>
-                        </span>
-                    </div>
+            <div class="col-sm-6 imgcol">
+                <div class="container align-self-center">
+                    <img class="img-bro" id="img-bro" src="img/bro.svg" alt="svg">
                 </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">    
+                <span>
+                    <a href="https://github.com/david-garcia1402" target="_blank"><img src="img/giticon.svg" alt="Git Icon"></a>
+                </span>
+            </div>                
+            <div class="col-4">    
+                <span>
+                    <a href="https://www.instagram.com/_davidgaarcia/" target="_blank"><img src="img/instagram.png" width="24" height="24" alt="Git Icon"></a>
+                </span>
+            </div>                    
+            <div class="col-4">    
+                <span>
+                    <a href="https://www.linkedin.com/in/david-garcia-a839b4243/" target="_blank"><img src="img/linkedinicon.png" width="34" height="34" alt="Git Icon"></a>
+                </span>
             </div>
         </div>
     </div>

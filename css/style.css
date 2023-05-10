@@ -1,0 +1,34 @@
+.img-bro{
+    height: 550px;
+    width: 550px;
+    display: block;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 805px) {
+    .img-bro{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .texts{
+        margin-left: 173px;
+    }
+    .imgcol{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 770px) {
+    .texts{
+        margin-left: 125px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .texts{
+        margin-left: 0;
+    }
+}

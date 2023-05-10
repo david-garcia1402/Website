@@ -13,7 +13,7 @@
     <script src="rating.js"></script>
     <title>David Garcia</title>
 </head>
-<body class="d-flex h-100 text-center text-bg-light">
+<body class="d-flex h-100 text-center text-bg-light disableCaret">
 <style>
     body{
         animation: fadeInAnimation ease 3s;
@@ -28,6 +28,11 @@
         100%{
             opacity: 1;
         }
+    }
+
+    .disableCaret{
+        -webkit-user-select: none;
+        user-select: none;  
     }
 </style>
 <div class="container">
@@ -59,7 +64,7 @@
             <div class="col-md-4">
                 <img src="img/Nerd-amico.svg" alt="Coder">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" style="margin-bottom: 70px !important;">
                 <a href="aboutMe.html"><img class="rounded-circle" width="140" height="140" src="img/perfil.png" alt="svg" focusable="false" title="Sobre mim"></a>
                 <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
                     Clique na imagem para saber mais sobre mim.
@@ -71,13 +76,13 @@
 
 <footer class="fixed-bottom text-bg-dark">
     <div class="row">
-        <div class="col-4">
+        <div class="col-sm-4">
             <a class="link-light" href="https://www.linkedin.com/in/david-garcia-a839b4243/" target="_blank" title="Perfil do Linkedin" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Linkedin</a>
         </div>
-        <div class="col-4">
+        <div class="col-sm-4">
             <a class="link-light" href="https://www.instagram.com/_davidgaarcia/" target="_blank" title="Perfil de Instagram" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Instagram</a>
         </div>
-        <div class="col-4">
+        <div class="col-sm-4">
             <a class="text-light" title="Me adicione no Discord" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">davidsg#5525</a>
         </div>
     </div>
