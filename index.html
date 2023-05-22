@@ -15,12 +15,21 @@
 </head>
 <body class="d-flex h-100 text-center text-bg-light disableCaret">
 <style>
+    *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: none;
+        box-sizing: border-box;
+    }
+
     body{
         animation: fadeInAnimation ease 3s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
         max-height: 590px;
     }
+
     @keyframes fadeInAnimation {
         0%{
             opacity: 0;
@@ -33,16 +42,6 @@
     .disableCaret{
         -webkit-user-select: none;
         user-select: none;  
-    }
-</style>
-<div class="container">
-<style>
-    *{
-        margin: 0;
-        padding: 0;
-        border: 0;
-        outline: none;
-        box-sizing: border-box;
     }
 </style>
 <body class="d-flex h-100 text-center text-bg-light"> 

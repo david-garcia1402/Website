@@ -21,14 +21,31 @@
     
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 821px){
+    #footerAboutme{
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 769px) {
     .texts{
-        margin-left: 125px;
+        margin-left: 180px;
+    }
+    #footerAboutme{
+        margin-left: 0px;
     }
 }
 
 @media screen and (max-width: 575px) {
     .texts{
         margin-left: 0;
+    }
+}
+
+@media screen and (width: 912px) {
+    .img-bro{
+        margin-left: 0;
+        width: 400px;
+        height: 400px;
     }
 }
