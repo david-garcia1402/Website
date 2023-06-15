@@ -13,7 +13,7 @@
     <script src="rating.js"></script>
     <title>David Garcia</title>
 </head>
-<body class="d-flex h-100 text-center text-bg-light disableCaret">
+<body class="d-flex h-100 text-center disableCaret">
 <style>
     *{
         margin: 0;
@@ -44,30 +44,42 @@
         user-select: none;  
     }
 </style>
-<body class="d-flex h-100 text-center text-bg-light"> 
 <div class="container">
     <div class="text-dark">
         <p class="display-1 mt-2" id="title">
-            Olá, meu nome é David!
+            Hi, my name is David!
         <p>
         <h6 class="display-6">
-            - Atualmente, sou estagiário Dev Trainee na <a class="link-dark" href="https://smartness.com.br/" target="_blank">Smartness</a>
+            - Nowadays, I'm a Dev Full-Stack at <a class="link-dark" href="https://smartness.com.br/" target="_blank">Smartness</a>
         </h6>
-        <div class="row mt-5">
-            <div class="col-md-4">
-                <a href="https://github.com/david-garcia1402" target="_blank"><img class="rounded-circle" width="140" height="140" src="img/giticon.svg" alt="svg" title="Perfil do GitHub"></a>
-                <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
-                    Clique na imagem para acessar meu GitHub, você terá acesso aos meus repositórios e consequentemente alguns projetos completos e/ou em desenvolvimento.
-                </p>
-            </div>
-            <div class="col-md-4">
-                <img src="img/Nerd-amico.svg" alt="Coder">
-            </div>
-            <div class="col-md-4" style="margin-bottom: 70px !important;">
-                <a href="aboutMe.html"><img class="rounded-circle" width="140" height="140" src="img/perfil.png" alt="svg" focusable="false" title="Sobre mim"></a>
-                <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
-                    Clique na imagem para saber mais sobre mim.
-                </p>
+        <div name="carousel">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" >
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="aboutMe.html" target="_blank"><img src="img/Messaging-cuate.svg" class="d-block w-100" style="margin-bottom: 70px;" alt="..." height="500px"></a> 
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="text-dark">About ME <h6 class="text-dark">click on img.</h6></h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="projects.html" target="_blank"><img src="img/Code typing-amico.svg" class="d-block w-100" style="margin-bottom: 70px;"  alt="..." height="500px"></a>
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h2 class="text-dark">Projects <h6 class="text-dark">click on img.</h6></h2>
+                    </div>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="bg-dark rounded-circle carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="bg-dark rounded-circle carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </div>
@@ -76,13 +88,13 @@
 <footer class="fixed-bottom text-bg-dark">
     <div class="row">
         <div class="col-sm-4">
-            <a class="link-light" href="https://www.linkedin.com/in/david-garcia-a839b4243/" target="_blank" title="Perfil do Linkedin" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Linkedin</a>
+            <a class="link-light" href="https://www.linkedin.com/in/david-garcia-a839b4243/" target="_blank" title="Linkedin" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Linkedin</a>
         </div>
         <div class="col-sm-4">
-            <a class="link-light" href="https://www.instagram.com/_davidgaarcia/" target="_blank" title="Perfil de Instagram" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Instagram</a>
+            <a class="link-light" href="https://www.instagram.com/_davidgaarcia/" target="_blank" title="Instagram" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Instagram</a>
         </div>
         <div class="col-sm-4">
-            <a class="text-light" title="Me adicione no Discord" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">davidsg#5525</a>
+            <a class="text-light" title="Add me on Discord" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">davidsg#5525</a>
         </div>
     </div>
 </footer>
