@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icons8-desenvolvedor-50.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="rating.js"></script>
+    <title>Projects</title>
+</head>
+<body class="d-flex h-100 text-center">
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: none;
+        box-sizing: border-box;
+    }
+
+    body{
+        animation: fadeInAnimation ease 3s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        max-height: 590px;
+    }
+
+    @keyframes fadeInAnimation {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+
+    .disableCaret{
+        -webkit-user-select: none;
+        user-select: none;  
+    }
+</style>
+<div class="container">
+    <div class="text-dark">
+        <form action="index.html" style="margin-bottom: 55px;">
+            <div class="position-absolute top-0 start-0 mx-3 mt-3">
+                <button type="submit" class="btn btn-outline-dark">
+                    Back
+                </button>
+            </div>
+        </form>
+        <p class="display-1 mt-2 disableCaret" id="title">
+            Projects: 
+        <p>
+        <div class="album py-5 text-bg-light">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-2 g-3">
+                    <div class="col-4">
+                        <div class="card shadow-sm">
+                            <a href="https://github.com/david-garcia1402/escola" target="_blank"><svg class="bd-placeholder-img card-img-top" width="100%" height="285" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" 
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <image xlink:href="img/p1img.svg" width="300">
+                            <title>School system</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg></a>
+                            <div class="card-body d-flex align-items-center justify-content-center bg-dark text-white">
+                                <div class="card-text">
+                                    A perfect school system for managing teachers, students, system users and school subjects. <p>(click on img to see it)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="col-4">
+                        <div class="card shadow-sm">
+                            <a href="https://github.com/david-garcia1402/toDoList-JS " target="_blank"><svg class="bd-placeholder-img card-img-top" width="100%" height="285" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" 
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <image xlink:href="img/p2img.svg" width="300">
+                            <title>To-do-list</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg></a>
+                            <div class="card-body d-flex align-items-center justify-content-center bg-dark text-white">
+                                <div class="card-text">
+                                    To-do-list to help you to easily manage your daily tasks just using the LocalStorage of your PC. <p>(click on img to see it)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="col-4">
+                        <div class="card shadow-sm">
+                            <a href="https://github.com/david-garcia1402/crud" target="_blank"><svg class="bd-placeholder-img card-img-top" width="100%" height="285" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" 
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <image xlink:href="img/p3img.svg" width="300">
+                            <title>CRUD</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg></a>
+                            <div class="card-body d-flex align-items-center justify-content-center bg-dark text-white">
+                                <div class="card-text">
+                                   CRUD w/ PHP, AJAX xmlHTTP requests, SQL, JQuery, JSON and validations for a better security. <p>(click on img to see it)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card shadow-sm">
+                            <a href="https://github.com/david-garcia1402/autoEmail" target="_blank"><svg class="bd-placeholder-img card-img-top" width="100%" height="285" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" 
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <image xlink:href="img/p4img.svg" width="300">
+                            <title>E-mail automatization</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg></a>
+                            <div class="card-bod d-flex align-items-center justify-content-centery bg-dark text-white" style="height: 144px;">
+                                <div class="card-text">
+                                   Simple automatization made w/ Pandas and PyAutoGui to send an e-mail.<p>(click on img to see it)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="col-4">
+                        <div class="card shadow-sm">
+                            <a href="https://github.com/david-garcia1402/tkinterpy" target="_blank"><svg class="bd-placeholder-img card-img-top" width="100%" height="285" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" 
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <image xlink:href="img/p5img.svg" width="300">
+                            <title>Inventory management</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg></a>
+                            <div class="card-body bg-dark text-white">
+                                <div class="card-text">
+                                   Complete inventory management made with Tkinter using SQLite as database (Python 3.8). <p>(click on img to see it)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="col-4">
+                        <div class="card shadow-sm">
+                            <a href="https://github.com/david-garcia1402/webscrapingPY" target="_blank"><svg class="bd-placeholder-img card-img-top" width="100%" height="285" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" 
+                            preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <image xlink:href="img/p6img.svg" width="300">
+                            <title>Web Scraping</title>
+                            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg></a>
+                            <div class="card-body bg-dark text-white">
+                                <div class="card-text">
+                                    Web Scraping using Selenium and Webdriver to redeem the prices of each currency in the sites.<p>(click on img to see it)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+</div>
+
+<footer class="fixed-bottom text-bg-dark">
+    <div class="row">
+        <div class="col-sm-4">
+            <a class="link-light" href="https://www.linkedin.com/in/david-garcia-a839b4243/" target="_blank" title="Linkedin" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Linkedin</a>
+        </div>
+        <div class="col-sm-4">
+            <a class="link-light" href="https://www.instagram.com/_davidgaarcia/" target="_blank" title="Instagram" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Instagram</a>
+        </div>
+        <div class="col-sm-4">
+            <a class="text-light" title="Add me on Discord" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">davidsg#5525</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
